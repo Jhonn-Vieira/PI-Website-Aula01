@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="src/CSS/header.css">
     <link rel="stylesheet" href="src/CSS/Bootstrap/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <header>
         <nav id="navbar">
             <i class="fa-regular fa-moon" id="nav_logo"> WebMoon</i>
             <ul id="nav_list">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="#home">Inicio</a>
                 </li>
 
@@ -32,9 +33,9 @@
 
             <div id="nav_buttons">
 
-                    <button>Login</button>
+                    <button class="login-btn">Login</button>
 
-                    <button id="default-btn">
+                    <button class="default-btn">
                         Comece já
                     </button>
             </div>
@@ -60,21 +61,21 @@
                 <li class="nav-item">
                     <a href="#Contato">Contato</a>
                 </li>
-            </ul>
+                <div id="mobile_nav_buttons">
 
-            <div id="nav_buttons">
-
-                    <button>Login</button>
+                    <button class="login-btn">Login</button>
 
                     <button class="default-btn">
                         Comece já
                     </button>
             </div>
+            </ul>
         </div>
     </header>
     <main></main>
     <footer></footer>
 
     <script src="src/JS/Bootstrap/bootstrap.bundle.js"></script>
+    <script src="src/JS/script.js"></script>
 </body>
 </html>
