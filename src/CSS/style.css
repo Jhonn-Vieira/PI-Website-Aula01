@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilo no corpo */
+body
+{
+    background-image: url(img/poke-fundo.png);
+    padding-top: 75px;
+}
+a{
+    text-decoration: none;
+}
+
+/* cabeçalhoo fixo */
+.header-fixed
+{
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* Seção de conteudo - inicio */
+.content-start--color
+{
+    background-color: #FFF42E; 
+}
+.content-start-col
+{
+    position: relative;
+}
+
+
+/* botão na seção de conteudo - inicio */
+.content-start__btn
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #f1f1f1
+}
+.content-start__btn:hover
+{
+    background-color: #E2BA65;
+    border: solid 1px black;
+    color: black
+}
+
+.content-2
+{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Seção de conteudo - 3 */
+.content-3
+{
+    margin-top: 90px;
+}
+
+
+/* Seção de conteudo - Fim */
+.col__content-end
+{
+    height: 400px; 
+    position: relative;  
+}
+.content-end__img
+{
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+
+}
+.content-end__btn
+{
+    position: absolute;
+    z-index: 2;
+    top: 74%;
+    left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%, 0%);
+    transition: 0.5s;
+    background-color: black;
+    color: #f1f1f1;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    
+}
+.content-end__btn:hover
+{
+    border: solid 1px black;
+    background-color: #E2BA65;
+    color: black
+}
+
+
+/* tipografia */
+.content__font-title--size
+{
+    font-size: 35px;
+}
+.content__font--size
+{
+    font-size: 25px;
+}
+
+/* estilo da tipografia */
+.text-justify
+{
+    text-align: justify;
+}
+.h2--color-white
+{
+    color: #f1f1f1;
+}
