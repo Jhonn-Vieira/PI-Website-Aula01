@@ -6,5 +6,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body
+{
     background-color: #f1f1f1;
+}
+
+.default-btn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3095;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+    color: #f1f1f1;
+}
+
+.default-btn:hover{
+    background-color: #5748da;
 }
