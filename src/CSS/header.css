@@ -47,11 +47,6 @@ header
     display: none;
 }
 
-#mobile_nav_buttons{
-    
-    
-}
-
 @media screen and (max-width: 1170px){
     #nav_list, #navbar .default-btn, #navbar .login-btn{
         display: none;
