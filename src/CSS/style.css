@@ -11,6 +11,9 @@ body
 {
     background-color: #ecf0f3;
 }
+section{
+    padding: 28px 8%;
+}
 
 .default-btn{
     border: none;
@@ -30,3 +33,4 @@ body
 .default-btn:hover{
     background-color: #5748da;
 }
+
