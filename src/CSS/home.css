@@ -1,7 +1,11 @@
 #home{
     display: flex;
     min-height: calc(100vh - 92px);
+    min-width: 100vh;
     position: relative;
+    background-image: url(../img/pagInicial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #cta{
     width: 35%;
@@ -50,6 +54,7 @@
     right: 15%;
     z-index: 1;
 }
+
 
 @media screen and (min-width: 2060px){
     #home .shape{
