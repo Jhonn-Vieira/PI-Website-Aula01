@@ -33,4 +33,7 @@ section{
 .default-btn:hover{
     background-color: #5748da;
 }
-
+.default-title{
+    text-align: center;
+    margin-top: 4%;
+}

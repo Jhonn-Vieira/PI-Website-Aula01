@@ -1,0 +1,12 @@
+.tec-card{
+    display: flex;
+    justify-content: center;
+    background-color: #e7e9ed;
+    border-radius: 15%;
+    padding: 20px;
+
+}
+.tec-card img{
+    width: 95%;
+    height: 325px;
+}
