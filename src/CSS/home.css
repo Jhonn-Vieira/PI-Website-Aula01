@@ -88,6 +88,9 @@
     #home{
         min-height: 100%;
         padding-top: 0px;
+        background-image: none;
+        background:linear-gradient(to bottom, #F8F7FB, #9A97D1, #4941A0)
+        
     }
 
     #banner, #banner img, #home .shape{
@@ -95,7 +98,59 @@
     }
 
     #cta{
-        width: 100%;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 850px){
+    #home{
+        min-height: 100%;
+        padding-top: 0px;
+        
+    }
+
+    #banner, #banner img, #home .shape{
+       display: none; 
+    }
+
+    #cta{
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    #home{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner, #banner img, #home .shape{
+       display: none; 
+    }
+
+    #cta{
+        width: 60%;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 600px){
+    #home{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner, #banner img, #home .shape{
+       display: none; 
+    }
+
+    #cta{
+        width: 50%;
         text-align: center;
         align-items: center;
     }

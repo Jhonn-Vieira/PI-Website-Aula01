@@ -9,6 +9,6 @@
 
 }
 .tec-card img{
-    width: 75%;
-    height: 225px;
+    max-width: 60%;
+    max-height: 70%;
 }
