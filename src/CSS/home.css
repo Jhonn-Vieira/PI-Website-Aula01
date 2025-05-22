@@ -1,13 +1,13 @@
 #home{
     display: flex;
     min-height: calc(100vh - 92px);
-    min-width: 100vh;
+    width: 100%;
     position: relative;
     background-image: url(../img/pagInicial.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
-    max-width: 1920px
+    
     
 }
 #cta{
@@ -61,6 +61,7 @@
 @media screen and (min-width: 1921px){
     #home{
         background-image: none;
+        max-width: 1920px;
     }
     #home .shape{
        width: 40%;
@@ -117,9 +118,10 @@
     }
 
     #cta{
-        width: 90%;
+        width: 100%;
         text-align: center;
         align-items: center;
+        
     }
 }
 
@@ -135,7 +137,7 @@
     }
 
     #cta{
-        width: 80%;
+        width: 100%;
         text-align: center;
         align-items: center;
     }
@@ -153,7 +155,7 @@
     }
 
     #cta{
-        width: 60%;
+        width: 100%;
         text-align: center;
         align-items: center;
     }
@@ -169,7 +171,7 @@
     }
 
     #cta{
-        width: 50%;
+        width: 100%;
         text-align: center;
         align-items: center;
     }
