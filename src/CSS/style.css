@@ -11,9 +11,6 @@ body
 {
     background-color: #ecf0f3;
 }
-section{
-    padding: 28px 8%;
-}
 
 .default-btn{
     border: none;
@@ -36,4 +33,9 @@ section{
 .default-title{
     text-align: center;
     margin-top: 4%;
+}
+.default-title-white{
+    text-align: center;
+    margin-top: 4%;
+    color: white;
 }
