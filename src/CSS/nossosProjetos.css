@@ -1,3 +1,9 @@
+#projetos{
+    background-image: url(../img/fundo2.png);
+    
+    
+    background-repeat: no-repeat;
+}
 #projetos__carrosel-bg{
     width: 100%;
 }
