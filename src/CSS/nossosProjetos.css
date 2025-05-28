@@ -1,9 +1,12 @@
 #projetos{
-    background-image: url(../img/FundoSite.png);
-    
-    
+    background-image: url(../img/FundoSite2.png);
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 #projetos__carrosel-bg{
     width: 100%;
+}
+#carrousel-item{
+    max-height: 90%;
 }
