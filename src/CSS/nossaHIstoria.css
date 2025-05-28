@@ -1,0 +1,8 @@
+#NossaHistoria{
+    display: flex;
+    min-height: calc(100vh - 92px);
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding: 28px 8%;
+}
