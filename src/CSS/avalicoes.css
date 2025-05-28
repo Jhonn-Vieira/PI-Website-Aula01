@@ -1,0 +1,16 @@
+.avaliacoes_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.avalicoes_img1{
+    height: 35%;
+    width: 35%;
+}
+.avaliacoes_stars{
+    display: flex;
+    gap: 5px;
+}
