@@ -1,16 +1,15 @@
-.missaoValores_card
-{
-    background-color:   #e7e9ed;
+.missaoValores_card {
+    background-color: #e7e9ed;
     padding: 2rem;
     border-radius: 15%;
 }
-.missaoValores_subText
-{
+
+.missaoValores_subText {
     font-size: 1.3rem;
     text-align: justify;
 }
-.missaoValores_Text
-{
+
+.missaoValores_Text {
     display: flex;
     flex-direction: column;
     justify-content: center;

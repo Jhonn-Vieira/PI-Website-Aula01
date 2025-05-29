@@ -1,8 +1,16 @@
 #NossaHistoria{
     display: flex;
-    min-height: calc(100vh - 92px);
+    min-height: calc(50vh - 92px);
     width: 100%;
     position: relative;
     margin: auto;
     padding: 28px 8%;
+    background-image: url(../img/FundoSobreNos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#SobreNosCarrosel
+{
+    flex-direction: column;
 }
