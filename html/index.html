@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebMoon</title>
     <link rel="stylesheet" href="../src/CSS/style.css">
     <link rel="stylesheet" href="../src/CSS/header.css">
     <link rel="stylesheet" href="../src/CSS/home.css">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../src/CSS/avalicoes.css">
     <link rel="stylesheet" href="../src/CSS/Bootstrap/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -23,10 +23,10 @@
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-regular fa-moon" id="nav_logo"> WebMoon</i>
+            <a href="index.html"><i class="fa-regular fa-moon" id="nav_logo"> WebMoon</i></a>
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Inicio</a>
+                    <a href="#home" aria-current="page">Inicio</a>
                 </li>
 
                 <li class="nav-item">
@@ -51,7 +51,7 @@
                 </button>
             </div>
 
-            <button id="mobile_btn">
+            <button id="mobile_btn" aria-label="Abrir menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </nav>
@@ -59,7 +59,7 @@
         <div id="mobile_menu">
             <ul id="mobile_nav_list">
                 <li class="nav-item">
-                    <a href="#home">Inicio</a>
+                    <a href="index.html" aria-current="page" >Inicio</a>
                 </li>
 
                 <li class="nav-item">
@@ -76,8 +76,6 @@
                     <a href="sobreNos.html">Sobre nós</a>
                 </li>
                 <div id="mobile_nav_buttons">
-
-
                     <button class="default-btn">
                         Comece já
                     </button>
@@ -90,8 +88,8 @@
             <div class="shape"></div>
             <div id="cta">
                 <h1 class="title">
-                    Crie <span class="">seu website</span> em poucos
-                    minutos
+                    <strong>Crie <span class="">seu website</span> em poucos
+                    minutos</strong>
                 </h1>
                 <p class="description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dolores architecto nostrum porro
@@ -112,7 +110,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h1 class="default-title"><b>Tecnologias utilizadas:</b></h1>
+                        <h2 class="default-title"><strong>Tecnologias utilizadas:</strong></h2>
                     </div>
                 </div>
                 <div class="row mt-5">
@@ -201,8 +199,8 @@
         <section id="qualidades">
             <div class="container my-5">
                 <div class="row text-center mb-5">
-                    <h1>Tem tudo para você começar
-                            e crescer</h1>
+                    <h2><strong>Tem tudo para você começar
+                            e crescer</strong></h2>
                 </div>
                 <div class="row my-3">
                     <div class="col-md-5 mb-3 mb-md-0">
@@ -248,13 +246,13 @@
         </section>
         <section id="avalicoes">
             <div class="container">
-                <div class="row my-5">
+                <div class="row mt-5">
                     <div class="col">
                         <div class="avaliacoes_title">
-                            <h1><b> Veja o que dizem nossos
+                            <h2><strong> Veja o que dizem nossos
                                     clientes
-                                </b>
-                            </h1>
+                                </strong>
+                            </h2>
                             <img src="../src/img/risco.png" class="avalicoes_img1" alt="">
                         </div>
                     </div>
@@ -263,11 +261,11 @@
                     <div class="col d-flex justify-content-center">
                         <div>
                             <h3>
-                                <b>
+                                <strong>
                                     EXCELENTE
-                                </b>
+                                </strong>
                             </h3>
-                            <div class="avaliacoes_stars d-none d-md-block d-flex justify-content-center">
+                            <div class="avaliacoes_stars d-none d-md-block d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                 <i class="fa-solid fa-star fa-xl" style="color: #f2ab1a;"></i>
                                 <i class="fa-solid fa-star fa-xl" style="color: #f2ab1a;"></i>
                                 <i class="fa-solid fa-star fa-xl" style="color: #f2ab1a;"></i>
@@ -304,7 +302,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
@@ -328,7 +326,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
@@ -361,7 +359,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
@@ -384,7 +382,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
@@ -417,7 +415,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
@@ -440,7 +438,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
@@ -494,7 +492,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
@@ -527,7 +525,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
@@ -560,7 +558,7 @@
                                                         <i class="fa-solid fa-circle-user fa-xl"></i>
                                                         <p>Mariana Lopes</p>
                                                     </div>
-                                                    <div class="avaliacoes_stars d-flex justify-content-center">
+                                                    <div class="avaliacoes_stars d-flex justify-content-center" role="img" aria-label="Avaliação: 5 de 5 estrelas">
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
                                                         <i class="fa-solid fa-star fa-lg" style="color: #f2ab1a;"></i>
