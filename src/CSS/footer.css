@@ -1,4 +1,29 @@
-footer{
+#footer{
     background-color: #1d1d1d;
     color: white;
+}
+.footer_subtext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer_subtext a {
+    text-decoration: none;
+    color: white;
+}
+.footer_icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer_icons a {
+    text-decoration: none;
+    color: white;
+}
+.footer_rightsClaim{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items:center;
 }
