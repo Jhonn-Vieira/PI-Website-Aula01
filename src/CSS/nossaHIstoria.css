@@ -14,3 +14,9 @@
 {
     flex-direction: column;
 }
+
+@media screen and (max-width: 1200px){
+    #NossaHistoria{
+        background-image: none;
+    }
+}

@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="../src/CSS/tecnologias.css">
     <link rel="stylesheet" href="../src/CSS/nossaHIstoria.css">
     <link rel="stylesheet" href="../src/CSS/missaoValores.css">
-    <link rel="stylesheet" href="../src/CSS/SobreNosCarrosel.css">
+    <link rel="stylesheet" href="../src/CSS/SobreHistoriaCarrosel.css">
+    <link rel="stylesheet" href="../src/CSS/SobreNos.css">
     <link rel="stylesheet" href="../src/CSS/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../src/CSS/Bootstrap/bootstrap.css">
@@ -90,8 +91,32 @@
     </header>
 
     <main>
+        <!-- mobile -->
+        <section id="SobreNos" class="my-5 d-block d-sm-block d-md-none">
+            <div class="container" style="height: 20%;">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1><strong>Sobre Nós</strong></h1>
+                        <p>A WebMoon é fundada com a missão de transformar ideias em experiências digitais.</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <dotlottie-player
+                                src="https://lottie.host/c632a98f-a73b-49d6-af8f-637f971ee0f0/WknBbIClEv.lottie"
+                                background="transparent" speed="1" style="width: 300px; height: 300px" loop
+                                autoplay class="img-fluid"></dotlottie-player>
+                        </div>
+                    </div>
+                    <div id="SobreNos_buttons" class="d-flex justify-content-center align-items-center mt-3">
+                        <a href="" class="default-btn">Experimente já</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Desktop -->
-        <section id="NossaHistoria" class="my-5 d-none d-sm-none d-md-block">
+        <section id="NossaHistoria" class="my-5 d-none d-sm-block d-md-block">
             <div class="container" style="height: 20%;">
                 <div class="row">
                     <div class="col">
@@ -122,29 +147,10 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section id="SobreNos" class="my-5 d-none d-sm-block d-md-none">
-            <div class="container" style="height: 20%;">
-                <div class="row">
-                    <div class="col-12">
-                        <h1><strong>Sobre Nós</strong></h1>
-                        <p>A WebMoon é fundada com a missão de transformar ideias em experiências digitais.</p>
-                    </div>
-                    <div class="col-12">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <dotlottie-player
-                                src="https://lottie.host/c632a98f-a73b-49d6-af8f-637f971ee0f0/WknBbIClEv.lottie"
-                                background="transparent" speed="1" style="width: 300px; height: 300px" loop
-                                autoplay></dotlottie-player>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </section>   
 
         <!-- desktop -->
-        <section id="missaoValores" class="d-none d-md-block">
+        <section id="missaoValores" class="d-none d-md-block mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
@@ -203,7 +209,7 @@
         </section>
 
         <!-- versão mobile -->
-        <section id="missaoValoresMobile" class="d-block d-md-none">
+        <section id="missaoValoresMobile" class="d-block d-md-none mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 mb-5">
