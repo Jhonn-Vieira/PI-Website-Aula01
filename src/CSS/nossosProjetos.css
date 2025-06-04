@@ -9,7 +9,11 @@
 }
 
 .carousel-body{
-    min-height: 100vh;
+    min-height: 90vh;
     flex-direction: column;
     gap: 20px;
+}
+
+.carousel-content{
+    flex-direction: row;
 }
