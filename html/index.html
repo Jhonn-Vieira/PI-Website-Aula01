@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../src/CSS/style.css">
     <link rel="stylesheet" href="../src/CSS/Bootstrap/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -589,6 +589,16 @@
                 </div>
             </div>
         </section>
+
+        <!-- html do vlibras -->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+
+
     </main>
     <footer id="footer">
         <div class="container-fluid">
@@ -651,6 +661,12 @@
     <script src="../src/JS/Bootstrap/bootstrap.bundle.js"></script>
     <script src="../src/JS/script.js"></script>
     <script src="../src/JS/headerAnimation.js"></script>
+    
+    <!-- script do vlibras -->
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
 </body>
 
