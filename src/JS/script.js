@@ -35,6 +35,7 @@ $(document).ready(function(){
     })
 
     //animação de scroll
+    //utiliza a biblioteca ScrollReveal
 
     ScrollReveal().reveal('#cta', {
         origin: "left",
