@@ -60,8 +60,7 @@ $(document).ready(function(){
      ScrollReveal().reveal('#qualidades_row-2', {
         origin: "right",
         duration: 1500,
-        distance: '20%',
-        reset: true
+        distance: '20%'
         
     });
 });
