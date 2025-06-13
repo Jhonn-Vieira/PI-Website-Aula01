@@ -14,3 +14,60 @@
 .tec-card img{
     
 }
+
+
+/* codigo pronto para card flip */
+
+/* 1. O container que define a perspectiva 3D */
+.card-flip-container {
+  perspective: 1000px;
+  /* Use max-width ou o sistema de colunas do Bootstrap para responsividade */
+  max-width: 350px; 
+}
+
+/* 2. O elemento que irá girar */
+.card-flipper {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  display: grid;
+  /* Isso garante que o container do grid se ajuste ao conteúdo */
+}
+
+/* 3. Estilos para as faces do card (frente e verso) */
+.card-face {
+  /* INSTRUÇÃO PARA OCUPAR A MESMA CÉLULA DO GRID */
+  grid-area: 1 / 1; /* Ocupa a primeira linha e primeira coluna */
+  
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Esconde o lado de trás quando virado */
+  
+  /* Adicione outros estilos que desejar (padding, background, etc) */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem; /* Para bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-front {
+  background-color: #fff;
+}
+
+.card-back {
+  background-color: #f8f9fa; /* Um cinza claro do Bootstrap */
+  transform: rotateY(180deg);
+}
+
+/* 4. A animação de giro no hover */
+.card-flip-container:hover .card-flipper {
+  transform: rotateY(180deg);
+}
+
+/* 5. Garante que as imagens dentro dos cards sejam responsivas */
+.card-face img {
+  max-width: 100%;
+  height: auto;
+}
