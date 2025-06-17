@@ -1,3 +1,87 @@
 #SobreNos_buttons a{
     text-decoration: none;
 }
+
+
+
+
+/* Sobre nos da home */
+
+#Home-SobreNos{
+    background-image: url(../img/FundoSobreNos2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+}
+
+#Home-SobreNos .Home-SobreNos_imgs {
+    /* 1. Faz a imagem ultrapassar o limite da sua coluna */
+    width: 175%;
+
+    /* 2. Compensa o aumento de tamanho, puxando a imagem um pouco para a esquerda */
+    transform: translateX(-32%);
+
+    /* Opcional: Adiciona uma sombra suave para dar profundidade */
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.2));
+}
+#Home-SobreNos_btn{
+    max-width: 25%;
+}
+.Home-SobreNos_texts{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.Home-SobreNos_buttons a {
+        text-decoration: none;
+  
+}
+.Home-SobreNos_text-size{
+    font-size: 1.5rem;
+}
+
+
+    
+
+@media screen and (max-width: 1600px){
+    #Home-SobreNos .Home-SobreNos_imgs{
+        width: 160%;
+        transform: translateX(-28%);
+    }
+    #Home-SobreNos{
+        min-height: 65vh;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #Home-SobreNos_btn{
+    max-width: 65%;
+    text-align: center;
+} 
+
+    #Home-SobreNos .Home-SobreNos_imgs{
+        transform: translateX(-25%);
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    #Home-SobreNos_btn{
+    max-width: 65%;
+    text-align: center;
+} 
+
+    #Home-SobreNos .Home-SobreNos_imgs{
+        transform: translateX(-25%);
+        background-size: cover;
+    }
+
+    #Home-SobreNos{
+        min-height: 40vh;
+        align-items: center;
+    }
+
+    .Home-SobreNos_text-size{
+    font-size: 1.1rem;
+}
+}
