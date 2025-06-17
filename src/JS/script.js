@@ -63,4 +63,12 @@ $(document).ready(function(){
         distance: '20%'
         
     });
+
+
+    ScrollReveal().reveal('#Home-SobreNos-cta', {
+        origin: "right",
+        duration: 1500,
+        distance: '20%'
+        
+    });
 });
