@@ -52,7 +52,7 @@
 
             <div id="nav_buttons">
 
-                <button class="default-btn">
+                <button class="default-btn"  data-bs-toggle="modal" data-bs-target="#myModal">
                     Comece já
                 </button>
             </div>
@@ -86,7 +86,7 @@
                 <div id="mobile_nav_buttons">
 
 
-                    <button class="default-btn">
+                    <button class="default-btn"  data-bs-toggle="modal" data-bs-target="#myModal">
                         Comece já
                     </button>
                 </div>
@@ -282,6 +282,60 @@
             </div>
         </div>
 
+         <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content p-4">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header border-bottom-0 mt-3">
+                        <h4 class="modal-title w-100 text-center">Envie seu email</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="footer_icons text-center mt-4">
+                        <a href="" style="color: black;"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                        <a href="" style="color: black;"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+                        <a href="" style="color: black;"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                    </div>
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal_imput">
+                            <form id="formularioContato" action="URL_DO_SEU_BACKEND" method="POST">
+
+                                <div class="mb-3">
+                                    <label for="emailUsuario" class="form-label">Seu E-mail</label>
+                                    <input type="email" class="form-control" id="emailUsuario" name="email"
+                                        placeholder="seuemail@exemplo.com" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="assuntoEmail" class="form-label">Assunto</label>
+                                    <input type="text" class="form-control" id="assuntoEmail" name="assunto"
+                                        placeholder="Qual o motivo do contato?" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="mensagemUsuario" class="form-label">Mensagem</label>
+                                    <textarea class="form-control" id="mensagemUsuario" name="mensagem" rows="5"
+                                        placeholder="Digite sua mensagem aqui..." required></textarea>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer border-top-0">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="default-btn" form="formularioContato">Enviar Mensagem</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
     </main>
 
     <footer id="footer" class="w-100">
